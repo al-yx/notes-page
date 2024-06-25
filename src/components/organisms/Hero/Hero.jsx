@@ -4,12 +4,12 @@ import Button from "../../atoms/Button/Button";
 const Hero = () => {
   return (
     <div className="text-white py-40 text-xl font-semibold flex flex-col gap-3 px-10">
-      <div className="text-4xl">
-        Capture Every Thought. Organize with Ease. Remember Effortlessly.
+      <div className="text-4xl text-shadow">
+        Capture Your Thoughts, Anytime, Anywhere.
       </div>
-      <div>Where Ideas Take Shape.</div>
-      <div>
-        Ready to get organized? Enter your email to create or access your notes.
+      <div className="text-shadow">Where Ideas Take Shape.</div>
+      <div className="text-shadow">
+        Enter your email to create or access your notes.
       </div>
       <div className="input-group text-black flex justify-center gap-3">
         <input

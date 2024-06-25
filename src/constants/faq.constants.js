@@ -1,4 +1,4 @@
-export const faqData = [
+export const FAQS = [
   {
     question: "What features does the notes app offer?",
     answer:
