@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App animate-fade">
       <h1 className="text-3xl h-96">
-        <div className="bg-[url('/public/notes.png')]">
+        <div className="bg-[url('/public/background-crop.gif')] md:bg-[url('/public/background.gif')] bg-cover">
           <Header />
           <Hero />
         </div>

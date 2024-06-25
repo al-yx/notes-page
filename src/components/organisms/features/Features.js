@@ -4,10 +4,15 @@ import { FEATURE_CONFIG } from "../../../constants/features.constants";
 
 const Features = () => {
   return (
-    <div className="bg-zinc-600">
-      {FEATURE_CONFIG.map((feature) => (
-        <PictureComponent {...feature} key={feature.title} />
-      ))}
+    <div>
+      <div className="text-4xl md:text-6xl text-shadow pt-12 text-white">
+        What Makes Us Great?
+      </div>
+      <div className="bg-zinc-600">
+        {FEATURE_CONFIG.map(feature => (
+          <PictureComponent {...feature} key={feature.title} />
+        ))}
+      </div>
     </div>
   );
 };
