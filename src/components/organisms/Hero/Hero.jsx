@@ -3,7 +3,7 @@ import Button from "../../atoms/Button/Button";
 
 const Hero = () => {
   return (
-    <div className="text-white py-40 text-xl font-semibold flex flex-col gap-3 px-10">
+    <div className="text-white py-10 px-3 md:py-40 lg:py-40 text-xl font-semibold flex flex-col gap-3">
       <div className="text-4xl text-shadow">
         Capture Your Thoughts, Anytime, Anywhere.
       </div>
@@ -11,12 +11,12 @@ const Hero = () => {
       <div className="text-shadow">
         Enter your email to create or access your notes.
       </div>
-      <div className="input-group text-black flex justify-center gap-3">
+      <div className="input-group flex flex-col md:flex-row lg:flex-row justify-center gap-3 px-4">
         <input
           type="text"
-          className="form-control h-12 p-6"
+          className="form-control h-12 p-2 md:p-4 lg:p-4 bg-transparent border border-slate-200 "
           name="email"
-          placeholder="Enter your email"
+          placeholder="Email Address"
         />
         <span className="input-group-btn">
           <Button size="large">Get started</Button>

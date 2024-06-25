@@ -10,12 +10,12 @@ const PictureComponent = ({ imgSrc, imgAlt, title, description, reverse }) => {
       <div
         className={`flex flex-col md:flex-row ${
           reverse ? "md:flex-row-reverse" : ""
-        } items-center my-4 p-12`}
+        } items-center my-4 sm:p-6 md:p-12 lg:p-12`}
       >
         <div className="md:w-1/2 p-4">
           <img src={imgSrc} alt={imgAlt} className={"w-full h-auto rounded"} />
         </div>
-        <div className="md:w-1/2 p-4 text-white text-left p-8">
+        <div className="md:w-1/2 p-4 text-white sm:text-center md:text-left lg:text-left md:p-8 lg:p-8">
           <h2 className="text-5xl font-bold mb-4">{title}</h2>
           <p className="text-2xl">{description}</p>
         </div>
